@@ -1,0 +1,19 @@
+{
+  "name": "alumini",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000a\u0000l\u0000u\u0000m\u0000n\u0000i\u0000f\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4"
+  }
+}

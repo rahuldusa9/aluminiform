@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Form</title>
+    <link rel="stylesheet" href="/alumni.css">
+</head>
+<body>
+    <h1>Submit Alumni Form</h1>
+    <form action="/" method="POST">
+        <div class="body">
+        
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="batch">Batch:</label>
+            <input type="text" id="batch" name="batch" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <div style="margin-bottom: 10px;">
+            <a href="https://www.imghippo.com/">click here to convert your image into link and paste link choose <span style="color: red;">**</span><strong>embedcodes>directlink</strong><span style="color: red;">**</span></a>
+            </div>
+            <label for="photo">Profile Photo:</label>
+            <input type="text" id="photo" name="photo">
+        </div>
+        <div>
+            <label for="profile">Linkedin profile:</label>
+            <input type="text" id="profile" name="profile" required>
+        </div>
+        <div>
+            <label for="achivements">Achivements:</label>
+        </div>
+        <div>
+            <textarea name="achivements" id="achivements" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="profession">Profession:</label>
+            <input type="text" id="profession" name="profession" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
